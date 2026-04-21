@@ -1,0 +1,16 @@
+# DevTools Exploration
+
+## Website 1: https://example.com
+1. HTML tags used: `html`, `head`, `meta`, `title`, `style`, `body`, `div`, `h1`, `p`, `a`
+2. Page title: "Example Domain"
+3. Number of headings: 1 `<h1>`
+
+## Website 2: https://developer.mozilla.org
+1. Navigation menu wrapped in: `<nav>` tag with class `main-menu`
+2. Search bar structure: `<form role="search">` containing `<input type="search">` and `<button>`
+3. Hover over links: Color changes to blue, underline appears. CSS shows `:hover { color: #0069c2; text-decoration: underline; }`
+
+## Website 3: https://github.com
+1. 5 HTML elements: `<header>`, `<main>`, `<article>`, `<button>`, `<svg>`
+2. Form element: Login form with inputs: `input[type="text"]` for username, `input[type="password"]` for password
+3. Screenshot: [Attach screenshot of Elements panel showing form structure]
