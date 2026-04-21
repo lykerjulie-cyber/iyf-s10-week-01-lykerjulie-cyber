@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Juliet Adhiambo</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div><strong>Juliet Adhiambo</strong></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Me</h1>
+        <form>
+            <fieldset>
+                <legend>Send me a message</legend>
+                
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+                
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+                
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="+254 700 000000">
+                
+                <label for="subject">Subject *</label>
+                <select id="subject" name="subject" required>
+                    <option value="">Choose a subject</option>
+                    <option value="collaboration">Collaboration</option>
+                    <option value="textiles">Textile Order</option>
+                    <option value="general">General Inquiry</option>
+                </select>
+                
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" placeholder="Type your message here..." minlength="50" required></textarea>
+                
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Subscribe to newsletter</label>
+                
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+        
+        <section>
+            <h2>Other Ways to Reach Me</h2>
+            <address>
+                Nairobi, Kenya<br>
+                Timezone: EAT (UTC+3)
+            </address>
+            <p>Email: <a href="mailto:lykerjulie@gmail.com">lykerjulie@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/lykerjulie-cyber">lykerjulie-cyber</a></p>
+        </section>
+    </main>
+    <footer><p>© 2026 Juliet Adhiambo</p></footer>
+</body>
+                  </html>
